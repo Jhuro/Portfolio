@@ -1,0 +1,21 @@
+{
+  "Hero": {
+    "title": "Hi, I'm",
+    "subtitle": "I like to",
+    "word1": "program",
+    "word2": "design",
+    "word3": "learn",
+    "word4": "create"
+  },
+  "About": {
+    "title": "About me",
+    "about": "I am a systems engineer who graduated from the Universidad Piloto de Colombia, passionate about software development and a person who likes to learn something new every day and hone my skills with experience. During university, I worked mainly with languages ​​such as Java, JavaScript, HTML and SQL, but my own initiative to continue studying and developing projects has led me to learn other tools. I am aware of how fast the world moves and how volatile it can be, so I try to stay up to date to adapt to certain scenarios.",
+    "cvButton": "Download CV"
+  },
+  "Projects": {
+    "title": "Projects",
+    "titleLabel": "Project title",
+    "descriptionLabel": "Description",
+    "technologiesLabel": "Technologies"
+  }
+}

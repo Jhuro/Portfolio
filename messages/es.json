@@ -1,0 +1,21 @@
+{
+  "Hero": {
+    "title": "Hola, soy",
+    "subtitle": "Me gusta",
+    "word1": "programar",
+    "word2": "diseñar",
+    "word3": "aprender",
+    "word4": "crear"
+  },
+  "About": {
+    "title": "Sobre mí",
+    "about": "Soy ingeniero de sistemas egresado de la Universidad Piloto de Colombia, apasionado por el desarrollo de software y una persona a la que le agrada aprender cada día algo nuevo e ir puliendo mis habilidades con la experiencia. Durante la universidad, trabaje principalmente con lenguajes como Java, JavaScript, HTML y SQL, pero la iniciativa propia de seguir estudiando y la elaboración de proyectos me han llevado a conocer otras herramientas. Soy consciente de lo rápido que avanza el mundo y de lo vólatil que puede llegar a ser, por lo que busco mantenerme actualizado para adaptarme a ciertos escenarios.",
+    "cvButton": "Descargar CV"
+  },
+  "Projects": {
+    "title": "Proyectos",
+    "titleLabel": "Título del proyecto",
+    "descriptionLabel": "Descripción",
+    "technologiesLabel": "Tecnologías"
+  }
+}
