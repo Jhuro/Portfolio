@@ -3,16 +3,6 @@
 import { useState } from 'react';
 import {useTranslations} from 'next-intl';
 import Image from 'next/image';
-const projects = [
-  {
-    title: 'SIGMETUM-A',
-    image: 'https://drive.google.com/uc?id=1UffWNYYB7Tz0eufDdBE6FAECmJE2LB7s',
-    description: 'Aplicación web interactiva para la visualización de datos relacionados a la vegetación de Andalucía; hace parte de un proyecto liderado por la Universidad de Málaga.',
-    tools: 'Express, React, Node.js, AWS',
-    github: 'https://github.com/usuario/proyecto1',
-    liveLink: 'https://www.sigmetum-a.org',
-  }
-];
 
 export default function ProjectsCarousel() {
   const t = useTranslations('Projects');
