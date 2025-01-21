@@ -16,6 +16,59 @@
     "title": "Proyectos",
     "titleLabel": "Título del proyecto",
     "descriptionLabel": "Descripción",
-    "technologiesLabel": "Tecnologías"
+    "technologiesLabel": "Tecnologías",
+    "items": [
+      {
+        "title": "SIGMETUM-A",
+        "image": "https://drive.google.com/uc?id=1UffWNYYB7Tz0eufDdBE6FAECmJE2LB7s",
+        "description": "Aplicación web interactiva para la visualización de datos relacionados a la vegetación de Andalucía; hace parte de un proyecto liderado por la Universidad de Málaga.",
+        "tools": "Express, React, Node.js, AWS",
+        "github": "https://github.com/usuario/proyecto1",
+        "liveLink": "https://www.sigmetum-a.org"
+      }
+    ]
+  },
+  "Experience": {
+    "title": "Experiencia y educación",
+    "experienceLabel": "Experiencia",
+    "educationLabel": "Educación",
+    "items": [
+      {
+        "image": "https://drive.google.com/uc?id=14EDBtFZ6Y9inRjt8ZoLdDfTwdbF4vsDT",
+        "type": "education",
+        "startDate": "Diciembre 2022",
+        "endDate": "Enero 2023",
+        "title": "Udemy",
+        "subtitle": "Introducción al desarrollo de apps para Android desde cero",
+        "description": "Estudios orientados al desarrollo de software, análisis de datos y tecnologías emergentes."
+      },
+      {
+        "image": "https://drive.google.com/uc?id=1PB8sCPHipYu_bqAP3fRN3MSdcOmDuKAH",
+        "type": "education",
+        "startDate": "Febrero 2019",
+        "endDate": "Mayo 2024",
+        "title": "Universidad Piloto de Colombia",
+        "subtitle": "Ingeniería de sistemas",
+        "description": "Responsable de la creación de interfaces de usuario usando React y Tailwind CSS."
+      },
+      {
+        "image": "https://drive.google.com/uc?id=10F1TDLZDndYafJ3z58qG0-Aab5yR5nKU",
+        "type": "experience",
+        "startDate": "Julio 2023",
+        "endDate": "Enero 2024",
+        "title": "TATA Consultancy Services",
+        "subtitle": "Delivery Assurance Facilitator",
+        "description": "Estudios orientados al desarrollo de software, análisis de datos y tecnologías emergentes."
+      },
+      {
+        "image": "https://drive.google.com/uc?id=14EDBtFZ6Y9inRjt8ZoLdDfTwdbF4vsDT",
+        "type": "education",
+        "startDate": "Julio 2024",
+        "endDate": "Septiemrbe 2024",
+        "title": "Udemy",
+        "subtitle": "Universidad Visual Basic. net y SQLserver: De 0 a Experto",
+        "description": "Estudios orientados al desarrollo de software, análisis de datos y tecnologías emergentes."
+      }
+    ]
   }
 }

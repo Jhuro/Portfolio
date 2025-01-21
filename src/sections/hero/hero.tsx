@@ -16,8 +16,8 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="flex items-center justify-center min-h-screen">
-      <div className="flex flex-col md:flex-row items-center max-w-7xl mx-auto space-y-6 md:space-y-0 md:space-x-12 px-6">
+    <section id="hero" className="flex items-center justify-center min-h-screen mx-auto">
+      <div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-12">
         <div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
             {t('title')} <span className="text-accent">Juan Patiño</span>

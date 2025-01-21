@@ -11,15 +11,7 @@ const projects = [
     tools: 'Express, React, Node.js, AWS',
     github: 'https://github.com/usuario/proyecto1',
     liveLink: 'https://www.sigmetum-a.org',
-  },
-  {
-    title: 'Proyecto 2',
-    image: '/path-to-image/project2.png',
-    description: 'Sitio web de portafolio personal',
-    tools: 'Next.js, Tailwind CSS',
-    github: 'https://github.com/usuario/proyecto2',
-    liveLink: 'https://proyecto2.com',
-  },
+  }
 ];
 
 export default function ProjectsCarousel() {
@@ -27,23 +19,22 @@ export default function ProjectsCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % t.raw('items').length);
   };
 
   const handlePrev = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? projects.length - 1 : prevIndex - 1
+      prevIndex === 0 ? t.raw('items').length - 1 : prevIndex - 1
     );
   };
 
-  const currentProject = projects[currentIndex];
+  const currentProject = t.raw('items')[currentIndex];
 
   return (
-    <section className="p-8 bg-mainBg text-foreground">
-      <div className="max-w-5xl mx-auto">
+    <section id="projects" className="p-8">
+      <div className="mx-auto">
         <h2 className="text-4xl font-bold mb-6">{t('title')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
-          {/* Imagen del proyecto */}
           <div className="flex items-center justify-center">
             <Image
               src={currentProject.image}
@@ -55,7 +46,6 @@ export default function ProjectsCarousel() {
             />
           </div>
 
-          {/* Contenido del código */}
           <div className="bg-console-bg p-4 rounded-lg font-mono shadow-lg overflow-auto h-64">
             <pre className="whitespace-pre-wrap break-words">
               <code>
@@ -78,7 +68,6 @@ export default function ProjectsCarousel() {
             </pre>
           </div>
 
-          {/* Barra de botones */}
           <div className="col-span-1 md:col-span-2 flex justify-center space-x-4 mt-4">
             <button onClick={handlePrev} className="material-icons">
               arrow_back_ios

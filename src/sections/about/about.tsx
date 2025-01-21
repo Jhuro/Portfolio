@@ -4,8 +4,8 @@ import {useTranslations} from 'next-intl';
 export default function AboutMe() {
   const t = useTranslations('About');
   return (
-    <section className="p-8">
-      <div className="max-w-4xl mx-auto">
+    <section id="about" className="p-8">
+      <div className="mx-auto">
         <h2 className="text-4xl font-bold mb-6">
           {t('title')}
         </h2>
@@ -14,7 +14,10 @@ export default function AboutMe() {
           {t('about')}
         </p>
 
-        <Link href="/mi-cv.pdf" target="_blank" download>
+        <Link 
+          href="https://drive.google.com/uc?export=download&id=1y_H5qI23dJ6vos9uKfk9O7HDi4Lk21TN"
+          download
+        >
           <button className="px-6 py-3 bg-primary text-secondary rounded-lg hover:bg-accent">
             {t('cvButton')}
           </button>

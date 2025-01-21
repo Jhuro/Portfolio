@@ -4,20 +4,15 @@ import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Ubuntu_Sans } from "next/font/google";
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Providers from "@/components/providers";
- 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const ubuntuFont = Ubuntu_Sans({
+  subsets: ['latin'],
+  weight: ['300', '400', '500'],
 });
 
 export const metadata: Metadata = {
@@ -48,7 +43,7 @@ export default async function LocaleLayout({
     </head>
     
     <body
-      className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      className={`antialiased ${ubuntuFont.className} bg-main-bg`}
     >
         <NextIntlClientProvider messages={messages}>
           <Providers>

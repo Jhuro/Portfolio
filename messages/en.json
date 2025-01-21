@@ -16,6 +16,55 @@
     "title": "Projects",
     "titleLabel": "Project title",
     "descriptionLabel": "Description",
-    "technologiesLabel": "Technologies"
+    "technologiesLabel": "Technologies",
+    "items": [
+      {
+        "title": "SIGMETUM-A",
+        "image": "https://drive.google.com/uc?id=11KrkIjNowzwZSi6kORIseV2kUhfetJ5E",
+        "description": "Interactive web application for the visualization of data related to the vegetation of Andalusia; part of a project led by the University of Malaga.",
+        "tools": "Express, React, Node.js, AWS",
+        "github": "https://github.com/usuario/proyecto1",
+        "liveLink": "https://www.sigmetum-a.org"
+      }
+    ]
+  },
+  "Experience": {
+    "title": "Experience and education",
+    "experienceLabel": "Experience",
+    "educationLabel": "Education",
+    "items": [
+      {
+        "image": "https://drive.google.com/uc?id=14EDBtFZ6Y9inRjt8ZoLdDfTwdbF4vsDT",
+        "type": "education",
+        "startDate": "December 2022",
+        "endDate": "January 2023",
+        "title": "Udemy",
+        "subtitle": "Introducción al desarrollo de apps para Android desde cero"
+      },
+      {
+        "image": "https://drive.google.com/uc?id=1PB8sCPHipYu_bqAP3fRN3MSdcOmDuKAH",
+        "type": "education",
+        "startDate": "February 2019",
+        "endDate": "May 2024",
+        "title": "Universidad Piloto de Colombia",
+        "subtitle": "Ingeniería de sistemas"
+      },
+      {
+        "image": "https://drive.google.com/uc?id=10F1TDLZDndYafJ3z58qG0-Aab5yR5nKU",
+        "type": "experience",
+        "startDate": "July 2023",
+        "endDate": "January 2024",
+        "title": "TATA Consultancy Services",
+        "subtitle": "Delivery Assurance Facilitator"
+      },
+      {
+        "image": "https://drive.google.com/uc?id=14EDBtFZ6Y9inRjt8ZoLdDfTwdbF4vsDT",
+        "type": "education",
+        "startDate": "July 2024",
+        "endDate": "September 2024",
+        "title": "Udemy",
+        "subtitle": "Universidad Visual Basic. net y SQLserver: De 0 a Experto"
+      }
+    ]
   }
 }

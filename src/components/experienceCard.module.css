@@ -1,0 +1,35 @@
+@layer utilities {
+  @keyframes border-glow-light {
+    0% {
+      box-shadow: 0 0 5px #BC00FB, 0 0 1px #BC00FB;
+    }
+    50% {
+      box-shadow: 0 0 20px #BC00FB, 0 0 5px #BC00FB;
+    }
+    100% {
+      box-shadow: 0 0 5px #BC00FB, 0 0 1px #BC00FB;
+    }
+  }
+
+  @keyframes border-glow-dark {
+    0% {
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 1px rgba(255, 255, 255, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 1), 0 0 5px rgba(255, 255, 255, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 1px rgba(255, 255, 255, 0.7);
+    }
+  }
+
+  .glowingBorderLight {
+    animation: border-glow-light 1s infinite ease-in-out;
+    border-radius: 8px;
+  }
+
+  .glowingBorderDark {
+    animation: border-glow-dark 1s infinite ease-in-out;
+    border-radius: 8px;
+  }
+}
