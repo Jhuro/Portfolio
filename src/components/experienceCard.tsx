@@ -21,13 +21,13 @@ const ExperienceCard = ({
           <span className={`px-2 py-1 text-xs font-semibold text-white rounded ${typeClass}`}>
             {type === 'education' ? t('educationLabel') : t('experienceLabel')}
           </span>
-          <span className="text-sm text-gray-500 sm:ml-4 sm:text-right">
+          <span className="text-sm sm:ml-4 sm:text-right">
             {startDate} - {endDate}
           </span>
         </div>
         <div className="flex items-center">
        
-        <div className="m-2 w-24 h-24 flex items-center justify-center">
+        <div className="m-2 p-2 w-24 h-24 flex items-center justify-center bg-[#F5F5F5] rounded-lg">
           <Image
             src={image}
             alt={title}
@@ -39,8 +39,8 @@ const ExperienceCard = ({
         </div>
 
           <div className="flex-col">
-            <h3 className="text-lg font-bold mt-2">{title}</h3>
-            <h4 className="text-md text-gray-700">{subtitle}</h4>
+            <h3 className="text-lg font-bold text-accent mt-2">{title}</h3>
+            <h4 className="text-md">{subtitle}</h4>
           </div>
         </div>
         

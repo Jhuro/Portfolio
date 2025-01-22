@@ -10,6 +10,8 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Providers from "@/components/providers";
 
+import "../globals.css";
+
 const ubuntuFont = Ubuntu_Sans({
   subsets: ['latin'],
   weight: ['300', '400', '500'],
@@ -20,13 +22,13 @@ export const metadata: Metadata = {
   description: "This is Juan Patiño's portfolio.",
 };
 
-export default async function LocaleLayout({
+export default async function RootLayout({
   children,
   params: {locale}
-}: {
+}: Readonly<{
   children: React.ReactNode;
   params: {locale: string};
-}) {
+}>) {
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
@@ -35,16 +37,16 @@ export default async function LocaleLayout({
  
   return (
     <html lang={locale} suppressHydrationWarning>
-    <head>
-      <link
-        href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        rel="stylesheet"
-      />
-    </head>
-    
-    <body
-      className={`antialiased ${ubuntuFont.className} bg-main-bg`}
-    >
+      <head>
+        <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"
+        />
+      </head>
+      
+      <body
+        className={`antialiased ${ubuntuFont.className} bg-main-bg`}
+      >
         <NextIntlClientProvider messages={messages}>
           <Providers>
             <Header/>

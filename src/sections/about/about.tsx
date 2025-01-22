@@ -18,7 +18,7 @@ export default function AboutMe() {
           href="https://drive.google.com/uc?export=download&id=1y_H5qI23dJ6vos9uKfk9O7HDi4Lk21TN"
           download
         >
-          <button className="px-6 py-3 bg-primary text-secondary rounded-lg hover:bg-accent">
+          <button className="px-6 py-3 bg-primary text-secondary rounded-lg font-bold hover:bg-accent">
             {t('cvButton')}
           </button>
         </Link>
