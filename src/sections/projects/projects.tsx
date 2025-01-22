@@ -29,7 +29,6 @@ export default function ProjectsCarousel() {
             <Image
               src={currentProject.image}
               alt={currentProject.title}
-              layout="responsive"
               width={16}
               height={9}
               className="rounded-lg shadow-lg object-cover"

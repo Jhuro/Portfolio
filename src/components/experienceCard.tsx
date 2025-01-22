@@ -1,6 +1,15 @@
 import Image from 'next/image';
 import {useTranslations} from 'next-intl';
 
+interface ExperienceCardProps {
+  image: string;
+  type: string;
+  startDate: string;
+  endDate: string;
+  title: string; 
+  subtitle: string;
+}
+
 const ExperienceCard = ({ 
   image, 
   type, 
@@ -8,7 +17,7 @@ const ExperienceCard = ({
   endDate, 
   title, 
   subtitle
-}) => {
+} : ExperienceCardProps) => {
 
   const typeClass = type === 'education' ? 'bg-blue-500' : 'bg-green-500';
   const t = useTranslations('Experience');
@@ -31,7 +40,6 @@ const ExperienceCard = ({
           <Image
             src={image}
             alt={title}
-            layout="intrinsic"
             width={100}
             height={100}
             className="object-contain"
