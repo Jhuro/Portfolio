@@ -2,6 +2,7 @@ import Hero from "@/sections/hero/hero"
 import AboutMe from "@/sections/about/about"
 import Projects from "@/sections/projects/projects"
 import Experience from "@/sections/experience/experience";
+import Contact from "@/sections/contact/contact";
 import Sidebar from "@/components/sidebar";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <AboutMe/>
         <Projects/>
         <Experience/>
+        <Contact/>
       </main>
     </>
   );

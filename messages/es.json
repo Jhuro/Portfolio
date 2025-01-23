@@ -70,5 +70,16 @@
         "description": "Estudios orientados al desarrollo de software, análisis de datos y tecnologías emergentes."
       }
     ]
+  },
+  "Contact": {
+    "title": "Contáctame",
+    "subtitle": "Estaré encantado de escucharte. Completa el formulario a continuación y me pondré en contacto contigo lo antes posible.",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Nombre",
+    "emailLabel": "Correo",
+    "emailPlaceholder": "Correo",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Mensaje",
+    "sendButton": "Enviar"
   }
 }

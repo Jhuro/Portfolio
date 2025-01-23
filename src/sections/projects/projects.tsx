@@ -24,18 +24,17 @@ export default function ProjectsCarousel() {
     <section id="projects" className="p-8">
       <div className="mx-auto">
         <h2 className="text-4xl font-bold mb-6">{t('title')}</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
-          <div className="flex items-center justify-center">
-            <Image
-              src={currentProject.image}
-              alt={currentProject.title}
-              width={16}
-              height={9}
-              className="rounded-lg shadow-lg object-cover"
-            />
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+        <div className="relative w-full aspect-video">
+          <Image
+            src={currentProject.image}
+            alt={currentProject.title}
+            fill
+            className="rounded-lg"
+          />
+        </div>
 
-          <div className="bg-console-bg p-4 rounded-lg font-mono shadow-lg overflow-auto h-64">
+          <div className="bg-console-bg p-4 rounded-lg font-mono shadow-lg overflow-auto h-full">
             <pre className="whitespace-pre-wrap break-words">
               <code>
                 <span className="text-accent">{"{"}</span>

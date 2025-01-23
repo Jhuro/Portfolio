@@ -14,7 +14,7 @@ export default function Experience() {
   const t = useTranslations('Experience');
   const items: ExperienceItem[] = t.raw('items') as ExperienceItem[];
   return (
-    <section id="experience" className="p-8 mx-auto">
+    <section id="experience" className="p-8">
         <h2 className="text-3xl font-semibold mb-6">
           {t('title')}
         </h2>

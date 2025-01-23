@@ -8,7 +8,7 @@ export default function Sidebar() {
   useEffect(() => {
     const handleScroll = () => {
       const sections = document.querySelectorAll<HTMLElement>("section");
-      const headerOffset = 80;
+      const headerOffset = 500;
       let currentSectionId = "";
   
       sections.forEach((section) => {
@@ -51,7 +51,7 @@ export default function Sidebar() {
           <button
             onClick={() => scrollToSection("hero")}
             className={`block material-icons py-2 px-4  ${
-              activeSection === "hero" ? "text-accent" : "hover:bg-gray-700"
+              activeSection === "hero" ? "text-accent" : ""
             }`}
           >
             home
@@ -61,7 +61,7 @@ export default function Sidebar() {
           <button
             onClick={() => scrollToSection("about")}
             className={`block material-icons py-2 px-4  ${
-              activeSection === "about" ? "text-accent" : "hover:bg-gray-700"
+              activeSection === "about" ? "text-accent" : ""
             }`}
           >
             info
@@ -71,7 +71,7 @@ export default function Sidebar() {
           <button
             onClick={() => scrollToSection("projects")}
             className={`block material-icons py-2 px-4  ${
-              activeSection === "projects" ? "text-accent" : "hover:bg-gray-700"
+              activeSection === "projects" ? "text-accent" : ""
             }`}
           >
             terminal
@@ -81,10 +81,20 @@ export default function Sidebar() {
           <button
             onClick={() => scrollToSection("experience")}
             className={`block material-icons py-2 px-4  ${
-              activeSection === "experience" ? "text-accent" : "hover:bg-gray-700"
+              activeSection === "experience" ? "text-accent" : ""
             }`}
           >
             school
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => scrollToSection("contact")}
+            className={`block material-icons py-2 px-4  ${
+              activeSection === "contact" ? "text-accent" : ""
+            }`}
+          >
+            call
           </button>
         </li>
       </ul>

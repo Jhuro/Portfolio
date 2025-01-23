@@ -66,5 +66,16 @@
         "subtitle": "Universidad Visual Basic. net y SQLserver: De 0 a Experto"
       }
     ]
+  },
+  "Contact": {
+    "title": "Contact me",
+    "subtitle": "I will be happy to listen to you. Fill out the form below and I will contact you as soon as possible.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Name",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "E-mail",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Message",
+    "sendButton": "Send"
   }
 }
