@@ -2,8 +2,10 @@
 
 import {useTranslations} from 'next-intl';
 
-async function handleSubmit(e) {
+async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    const form = e.currentTarget;
+    const formData = new FormData(form);
     const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
@@ -12,9 +14,9 @@ async function handleSubmit(e) {
         },
         body: JSON.stringify({
             access_key: "a672882c-c585-49a0-912c-7b1bd145852c",
-            name: e.target.name.value,
-            email: e.target.email.value,
-            message: e.target.message.value,
+            name: formData.get('name'),
+            email: formData.get('email'),
+            message: formData.get('message'),
         }),
     });
     const result = await response.json();
