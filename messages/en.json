@@ -3,7 +3,7 @@
     "title": "Hi, I'm",
     "subtitle": "I like to",
     "word1": "program",
-    "word2": "design",
+    "word2": "innovate",
     "word3": "learn",
     "word4": "create"
   },
@@ -24,6 +24,14 @@
         "description": "Interactive web application for the visualization of data related to the vegetation of Andalusia; part of a project led by the University of Malaga.",
         "tools": "Express, React, Node.js, AWS",
         "github": "https://github.com/usuario/proyecto1",
+        "liveLink": "https://www.sigmetum-a.org"
+      },
+      {
+        "title": "Portfolio",
+        "image": "https://drive.google.com/uc?id=1zYzUu4YL29G3aXcwfMfLW-VyUQjYYSKS",
+        "description": "Web application to introduce myself and showcase my skills.",
+        "tools": "Next.js, Tailwind CSS, TypeScript",
+        "github": "https://github.com/Jhuro/Portfolio.git",
         "liveLink": "https://www.sigmetum-a.org"
       }
     ]

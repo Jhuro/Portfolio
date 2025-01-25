@@ -3,7 +3,7 @@
     "title": "Hola, soy",
     "subtitle": "Me gusta",
     "word1": "programar",
-    "word2": "diseñar",
+    "word2": "innovar",
     "word3": "aprender",
     "word4": "crear"
   },
@@ -24,6 +24,14 @@
         "description": "Aplicación web interactiva para la visualización de datos relacionados a la vegetación de Andalucía; hace parte de un proyecto liderado por la Universidad de Málaga.",
         "tools": "Express, React, Node.js, AWS",
         "github": "https://github.com/usuario/proyecto1",
+        "liveLink": "https://www.sigmetum-a.org"
+      },
+      {
+        "title": "Portafolio",
+        "image": "https://drive.google.com/uc?id=1bWRA6ixIn4MOm__S5Uoga_0LFBl676q2",
+        "description": "Aplicación web para dar una introducción sobre mí y mostrar mis habilidades.",
+        "tools": "Next.js, Tailwind CSS, TypeScript",
+        "github": "https://github.com/Jhuro/Portfolio.git",
         "liveLink": "https://www.sigmetum-a.org"
       }
     ]

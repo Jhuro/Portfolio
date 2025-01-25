@@ -23,11 +23,11 @@ const ExperienceCard = ({
   const t = useTranslations('Experience');
 
   return (
-    <div className= "flex flex-col sm:flex-row bg-console-bg shadow-lg rounded-lg p-4 sm:p-6 mb-4 glowingBorderLight">
+    <div className= "flex flex-col sm:flex-row bg-alternative-primary shadow-lg rounded-lg p-4 sm:p-6 mb-4 glowingBorderLight">
       
       <div className="flex-1 mt-4 sm:mt-0 sm:ml-6">
         <div className="flex justify-between items-center flex-wrap">
-          <span className={`px-2 py-1 text-xs font-semibold text-white rounded ${typeClass}`}>
+          <span className={`px-2 py-1 text-xs font-semibold text-alternative-primary rounded ${typeClass}`}>
             {type === 'education' ? t('educationLabel') : t('experienceLabel')}
           </span>
           <span className="text-sm sm:ml-4 sm:text-right">

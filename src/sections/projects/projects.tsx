@@ -34,29 +34,27 @@ export default function ProjectsCarousel() {
           />
         </div>
 
-          <div className="bg-console-bg p-4 rounded-lg font-mono shadow-lg overflow-auto h-full">
+          <div className="bg-alternative-primary text-alternative-secondary p-4 rounded-lg font-mono shadow-lg overflow-auto h-full">
             <pre className="whitespace-pre-wrap break-words">
               <code>
                 <span className="text-accent">{"{"}</span>
                 <br />
                 <span className="pl-4 block">
-                  <span className="text-console-attribute">{t('titleLabel')}</span>:&nbsp;
-                  <span className="text-console-value">&quot;{currentProject.title}&quot;</span>,
+                  <span className="text-alternative-accent">{t('titleLabel')}</span>:&nbsp;
+                  <span>&quot;{currentProject.title}&quot;</span>,
                 </span>
                 <span className="pl-4 block">
-                  <span className="text-console-attribute">{t('descriptionLabel')}</span>:&nbsp;
-                  <span className="text-console-value">&quot;{currentProject.description}&quot;</span>,
+                  <span className="text-alternative-accent">{t('descriptionLabel')}</span>:&nbsp;
+                  <span>&quot;{currentProject.description}&quot;</span>,
                 </span>
                 <span className="pl-4 block">
-                  <span className="text-console-attribute">{t('technologiesLabel')}</span>:&nbsp;
-                  <span className="text-console-value">&quot;{currentProject.tools}&quot;</span>
+                  <span className="text-alternative-accent">{t('technologiesLabel')}</span>:&nbsp;
+                  <span>&quot;{currentProject.tools}&quot;</span>
                 </span>
                 <span className="text-accent">{"}"}</span>
               </code>
             </pre>
-          </div>
-
-          <div className="col-span-1 md:col-span-2 flex justify-center space-x-4 mt-4">
+            <div className="col-span-1 md:col-span-2 flex justify-center space-x-4 mt-4">
             <button onClick={handlePrev} className="material-icons hover:text-accent">
               arrow_back_ios
             </button>
@@ -72,6 +70,9 @@ export default function ProjectsCarousel() {
               arrow_forward_ios
             </button>
           </div>
+          </div>
+
+          
         </div>
       </div>
     </section>

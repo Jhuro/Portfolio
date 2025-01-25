@@ -1,7 +1,7 @@
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-footer-bg text-secondary p-4">
+    <footer className="bg-primary text-secondary p-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div>
           <p>&copy; {currentYear}</p>

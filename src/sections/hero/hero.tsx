@@ -30,10 +30,7 @@ export default function Hero() {
           </h2>
         </div>
         <div className="w-64 h-64 bg-gray-200 rounded-full overflow-hidden shadow-lg">
-          <img
-            src="/profile.jpg"
-            className="object-cover w-full h-full"
-          />
+
         </div>
       </div>
     </section>

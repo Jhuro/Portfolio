@@ -46,7 +46,7 @@ export default async function RootLayout({
       </head>
       
       <body
-        className={`antialiased ${ubuntuFont.className} bg-main-bg`}
+        className={`antialiased ${ubuntuFont.className} bg-secondary`}
       >
         <NextIntlClientProvider messages={messages}>
           <Providers>

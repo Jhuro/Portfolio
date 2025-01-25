@@ -21,7 +21,7 @@ export default function Header() {
 
   return (
     <header
-      className={`bg-main-bg text-primary p-4 sticky top-0 z-50 transition-shadow ${
+      className={`bg-secondary text-primary p-4 sticky top-0 z-50 transition-shadow ${
         hasShadow ? 'shadow-lg' : 'shadow-none'
       }`}
     >
